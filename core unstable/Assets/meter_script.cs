@@ -5,6 +5,7 @@ using UnityEngine.UIElements;
 public class meter_script : MonoBehaviour
 {
     [SerializeField] private GameObject meter;
+    [SerializeField] private SpriteRenderer sprite;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private float growth;
 
@@ -12,6 +13,10 @@ public class meter_script : MonoBehaviour
     void FixedUpdate()
     {
         growth += 0.05f;
+        if (growth < 5)
+        {
+            sprite.color = Color.orange;
+        }
     }
     void Update()
     {
