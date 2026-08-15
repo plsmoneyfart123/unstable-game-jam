@@ -449,6 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   meter: {fileID: 356047793}
+  sprite: {fileID: 356047795}
 --- !u!212 &356047795
 SpriteRenderer:
   serializedVersion: 3
