@@ -12,7 +12,11 @@ public class meter_script : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        growth += 0.05f;
+        if (growth < 20)
+        {
+            growth += 0.05f;
+        }
+
         if (growth < 5)
         {
             sprite.color = Color.orange;
