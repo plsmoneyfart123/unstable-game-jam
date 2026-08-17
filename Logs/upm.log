@@ -1,0 +1,156 @@
+[2026-08-17T11:20:45.924Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.1f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 22640 --ipc-path Unity-Upm-22640 -l 2 --log-file C:\\Users\\Michael\\OneDrive\\Documenten\\GitHub\\unstable-game-jam/Logs/upm.log
+[2026-08-17T11:20:45.946Z][INFO] IPC server started (IPC path=Unity-Upm-22640).
+[2026-08-17T11:20:45.946Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-22640.
+[2026-08-17T11:21:56.817Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-17T11:21:56.820Z][INFO] project:list-packages --> 404 (3 ms)
+[2026-08-17T11:21:56.951Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-08-17T11:21:56.963Z][INFO] config:project:get-registries --> 404 (12 ms)
+[2026-08-17T11:21:56.975Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-17T11:21:56.977Z][INFO] project:list-packages --> 404 (2 ms)
+[2026-08-17T11:21:57.052Z][INFO] project:update-dependencies <-- Request received
+params: {}
+[2026-08-17T11:21:57.090Z][INFO] project:update-dependencies --> 200 (37 ms)
+[2026-08-17T11:21:57.124Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-08-17T11:21:58.758Z][INFO] project:resolve-packages --> 200 (1634 ms)
+[2026-08-17T11:22:06.283Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-17T11:22:06.307Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-17T11:22:06.355Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-08-17T11:22:06.400Z][INFO] config:project:get-registries --> 200 (45 ms)
+[2026-08-17T11:22:06.473Z][INFO] project:list-packages --> 200 (190 ms)
+[2026-08-17T11:22:06.473Z][INFO] project:list-packages --> 200 (166 ms)
+[2026-08-17T11:22:08.664Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-17T11:22:08.801Z][INFO] project:list-packages --> 200 (137 ms)
+[2026-08-17T11:22:09.930Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-08-17T11:22:09.947Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-08-17T11:22:11.376Z][INFO] packages:get-all-packageinfo --> 200 (1429 ms)
+[2026-08-17T11:22:11.569Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.addressables@2.9.1"
+}
+[2026-08-17T11:22:11.591Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ads.ios-support@1.0.1"
+}
+[2026-08-17T11:22:11.592Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.collab-proxy@2.12.4"
+}
+[2026-08-17T11:22:11.714Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.inputsystem@1.19.0"
+}
+[2026-08-17T11:22:11.715Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.learn.iet-framework@5.0.4"
+}
+[2026-08-17T11:22:11.715Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.learn.iet-framework.authoring@1.5.4"
+}
+[2026-08-17T11:22:11.716Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.microsoft.gdk@1.6.0"
+}
+[2026-08-17T11:22:11.716Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.microsoft.gdk.tools@1.6.0"
+}
+[2026-08-17T11:22:11.718Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.polyspatial.extensions@3.1.5"
+}
+[2026-08-17T11:22:11.719Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.polyspatial.visionos@3.1.5"
+}
+[2026-08-17T11:22:11.719Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.probuilder@6.0.9"
+}
+[2026-08-17T11:22:11.719Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.scriptablebuildpipeline@2.6.1"
+}
+[2026-08-17T11:22:11.720Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.friends@1.1.1"
+}
+[2026-08-17T11:22:11.827Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.moderation@1.0.2"
+}
+[2026-08-17T11:22:11.828Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.multiplayer@2.1.3"
+}
+[2026-08-17T11:22:11.829Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.xr.arcore@6.5.0"
+}
+[2026-08-17T11:22:11.829Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.xr.arfoundation@6.5.0"
+}
+[2026-08-17T11:22:11.829Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.xr.arkit@6.5.0"
+}
+[2026-08-17T11:22:11.830Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.xr.compositionlayers@2.4.0"
+}
+[2026-08-17T11:22:11.830Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.xr.hands@1.8.1"
+}
+[2026-08-17T11:22:12.156Z][INFO] packages:get-packageinfo --> 200 (329 ms)
+[2026-08-17T11:22:12.157Z][INFO] packages:get-packageinfo --> 200 (437 ms)
+[2026-08-17T11:22:12.189Z][INFO] packages:get-packageinfo --> 200 (361 ms)
+[2026-08-17T11:22:12.267Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.xr.interaction.toolkit@3.5.1"
+}
+[2026-08-17T11:22:12.283Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.xr.management@4.5.4"
+}
+[2026-08-17T11:22:12.312Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.xr.openxr@1.17.1"
+}
+[2026-08-17T11:22:12.514Z][INFO] packages:get-packageinfo --> 200 (923 ms)
+[2026-08-17T11:22:12.549Z][INFO] packages:get-packageinfo --> 200 (980 ms)
+[2026-08-17T11:22:12.588Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.xr.visionos@3.1.5"
+}
+[2026-08-17T11:22:12.633Z][INFO] packages:get-packageinfo --> 200 (1041 ms)
+[2026-08-17T11:22:12.767Z][INFO] packages:get-packageinfo --> 200 (1051 ms)
+[2026-08-17T11:22:12.770Z][INFO] packages:get-packageinfo --> 200 (1056 ms)
+[2026-08-17T11:22:12.851Z][INFO] packages:get-packageinfo --> 200 (1135 ms)
+[2026-08-17T11:22:12.876Z][INFO] packages:get-packageinfo --> 200 (1158 ms)
+[2026-08-17T11:22:12.905Z][INFO] packages:get-packageinfo --> 200 (1187 ms)
+[2026-08-17T11:22:12.908Z][INFO] packages:get-packageinfo --> 200 (1193 ms)
+[2026-08-17T11:22:12.973Z][INFO] packages:get-packageinfo --> 200 (1254 ms)
+[2026-08-17T11:22:13.032Z][INFO] packages:get-packageinfo --> 200 (1313 ms)
+[2026-08-17T11:22:13.066Z][INFO] packages:get-packageinfo --> 200 (1236 ms)
+[2026-08-17T11:22:13.149Z][INFO] packages:get-packageinfo --> 200 (1433 ms)
+[2026-08-17T11:22:13.152Z][INFO] packages:get-packageinfo --> 200 (1323 ms)
+[2026-08-17T11:22:13.157Z][INFO] packages:get-packageinfo --> 200 (1329 ms)
+[2026-08-17T11:22:13.158Z][INFO] packages:get-packageinfo --> 200 (1328 ms)
+[2026-08-17T11:22:13.228Z][INFO] packages:get-packageinfo --> 200 (1399 ms)
+[2026-08-17T11:22:13.269Z][INFO] packages:get-packageinfo --> 200 (986 ms)
+[2026-08-17T11:22:13.279Z][INFO] packages:get-packageinfo --> 200 (1012 ms)
+[2026-08-17T11:22:13.304Z][INFO] packages:get-packageinfo --> 200 (717 ms)
+[2026-08-17T11:22:13.306Z][INFO] packages:get-packageinfo --> 200 (995 ms)
+[2026-08-17T11:22:13.331Z][INFO] packages:get-all-packageinfo --> 200 (3401 ms)
