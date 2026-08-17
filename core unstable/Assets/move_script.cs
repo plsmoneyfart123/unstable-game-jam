@@ -5,6 +5,7 @@ public class move_script : MonoBehaviour
     [SerializeField] private Rigidbody2D _Rb2D;
     private float speed = 10f;
     private float horizontal;
+    [SerializeField] private GameObject text;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void FixedUpdate()
     {
@@ -14,5 +15,12 @@ public class move_script : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         horizontal = context.ReadValue<Vector2>().x;
+    }
+    public void PressE(InputAction.CallbackContext context)
+    {
+        if (context.performed )//&& text.activeInHierarchy )
+        {
+            print ("stilte");
+        }
     }
 }
