@@ -4,7 +4,7 @@ using UnityEngine.UIElements;
 
 public class meter_script : MonoBehaviour
 {
-    [SerializeField] private GameObject meter;
+    public GameObject meter;
     [SerializeField] private SpriteRenderer sprite;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private float growth;

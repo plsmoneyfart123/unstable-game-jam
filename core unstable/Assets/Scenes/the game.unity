@@ -749,7 +749,11 @@ MonoBehaviour:
         m_SelectedSource:
           rid: -2
         m_Provider2DCache:
-          rid: -2
+          rid: 2524198675933298760
+    - rid: 2524198675933298760
+      type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.Light2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Cache: []
 --- !u!4 &619394802
 Transform:
   m_ObjectHideFlags: 0
@@ -1161,7 +1165,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1016714050
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1695,6 +1699,11 @@ Transform:
   - {fileID: 862494255}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1534557587 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5867125948741085724, guid: 7805775e135754d0aa615388e4fff9e7, type: 3}
+  m_PrefabInstance: {fileID: 5627608765278382487}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1693088481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,6 +1894,22 @@ PrefabInstance:
     - target: {fileID: 6416339320247150218, guid: 7805775e135754d0aa615388e4fff9e7, type: 3}
       propertyPath: m_Name
       value: test square
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305713554861536902, guid: 7805775e135754d0aa615388e4fff9e7, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1434144181}
+    - target: {fileID: 8305713554861536902, guid: 7805775e135754d0aa615388e4fff9e7, type: 3}
+      propertyPath: interact
+      value: 
+      objectReference: {fileID: 1016714049}
+    - target: {fileID: 8305713554861536902, guid: 7805775e135754d0aa615388e4fff9e7, type: 3}
+      propertyPath: _TransTable
+      value: 
+      objectReference: {fileID: 1534557587}
+    - target: {fileID: 8305713554861536902, guid: 7805775e135754d0aa615388e4fff9e7, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5867125948741085724}
   - component: {fileID: 679399664845358708}
   - component: {fileID: 8305713554861536902}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: test square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,3 +105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42549ed7682ae41faabc9cc85ff56ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  _TransTable: {fileID: 5867125948741085724}
+  layersmel:
+    serializedVersion: 2
+    m_Bits: 64
+  player: {fileID: 0}
