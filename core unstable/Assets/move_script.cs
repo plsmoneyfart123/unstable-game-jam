@@ -10,7 +10,7 @@ public class move_script : MonoBehaviour
     void FixedUpdate()
     {
         _Rb2D.linearVelocity = new Vector2 (horizontal * speed ,
-         _Rb2D.linearVelocityY); // y thing
+        _Rb2D.linearVelocityY); // y thing
     }
     public void Move(InputAction.CallbackContext context)
     {
