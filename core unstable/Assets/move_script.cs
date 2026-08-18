@@ -18,7 +18,7 @@ public class move_script : MonoBehaviour
     }
     public void PressE(InputAction.CallbackContext context)
     {
-        if (context.performed )//&& text.activeInHierarchy )
+        if (context.performed && text.activeInHierarchy )
         {
             print ("stilte");
         }
