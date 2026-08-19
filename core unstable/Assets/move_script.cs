@@ -1,3 +1,4 @@
+using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class move_script : MonoBehaviour
@@ -6,6 +7,9 @@ public class move_script : MonoBehaviour
     private float speed = 10f;
     private float horizontal;
     [SerializeField] private GameObject text;
+    [SerializeField] private LayerMask groundlayer;
+    [SerializeField] private Transform groundcheck;
+    [SerializeField] private float jumpheight = 10;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void FixedUpdate()
     {
@@ -22,5 +26,16 @@ public class move_script : MonoBehaviour
         {
             print ("stilte");
         }
+    }
+    public void jump(InputAction.CallbackContext context)
+    {
+        if (context.performed && IsGrounded())
+        {
+            _Rb2D.linearVelocity = new Vector2(_Rb2D.linearVelocityX, jumpheight);
+        }
+    }
+    private bool IsGrounded()
+    {
+        return Physics2D.OverlapCapsule(groundcheck.position, new Vector2 (0.65f,0.2f),CapsuleDirection2D.Horizontal,0, groundlayer);
     }
 }
